@@ -1,0 +1,9 @@
+<div>
+<form (ngSubmit)="onSubmit()">
+<input type="file" name="photo" (change)="onImageSelect($event)" />
+<input type="submit" value="bhejo"/>
+</form>
+</div>
+<div>
+  <button (click)= "downloadMe()">click here to download</button>
+</div>
